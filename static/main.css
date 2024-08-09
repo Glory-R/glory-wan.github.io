@@ -1,5 +1,6 @@
 html {
   background-color: #ffffff; 
+  scroll-behavior: smooth;
 }
 
 body { 
@@ -51,3 +52,7 @@ img { border: 0; }
 h1,h2,h3,h4,h5,h6 { font-family: Georgia,Helvetica,Arial,Verdana, san-serif, Times; }
 
 p { font-size:16;}
+
+.kaiti-font {
+  font-family: 'KaiTi', '楷体', 'STKaiti', '华文楷体', sans-serif;
+}
