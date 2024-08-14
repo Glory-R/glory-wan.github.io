@@ -29,6 +29,10 @@ nav {
     transition: background-color 0.25s ease-in-out;
 }
 
+#ps{
+    width: 150px;
+}
+
 .plan_icon{
     border:#6178fa;
 }
