@@ -86,6 +86,12 @@ table{ background-color: #ffffff; }
     width: 100%;
 }
 
+.pro_title{
+    background-color: #a7a7a7;
+    padding: 0.8%;
+    border-radius: 10px;
+}
+
 .project_des{
     padding-left: 5%;
     padding-right: 5%;
@@ -103,9 +109,11 @@ table{ background-color: #ffffff; }
     }
 }
 
+
 .project_td{
-    width: 50%; 
+    width: 40%; 
 }
+
 
 
 /* experience */
