@@ -83,7 +83,9 @@ table{ background-color: #ffffff; }
 }
 
 .paper_img{
-    border-radius: 30px;
+    /* border-radius: 20px; */
+    height: 250px; 
+    object-fit: cover;
 }
 
 .paper_des{
@@ -139,3 +141,14 @@ table{ background-color: #ffffff; }
 .exp_right{
     width: auto;
 }
+
+
+.centered-link {
+    text-align: center; 
+}
+
+.centered-link a {
+    color: black; 
+    text-decoration: none;
+}
+
