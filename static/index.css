@@ -58,6 +58,21 @@ table{ background-color: #ffffff; }
     border-radius: 20px;
 }
 
+#head_{
+    border-radius: 20px;
+}
+
+#card_hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(183, 190, 255);
+    margin: 20px 0;
+}
+
+#myword{
+    color: rgb(96, 160, 244);
+}
+
 #publication {
     display: flex; 
     justify-content: space-between; 
