@@ -58,7 +58,7 @@ table{ background-color: #ffffff; }
     border-radius: 20px;
 }
 
-#head_{
+.head_{
     border-radius: 20px;
 }
 
@@ -69,7 +69,7 @@ table{ background-color: #ffffff; }
     margin: 20px 0;
 }
 
-#myword{
+.myword{
     color: rgb(96, 160, 244);
 }
 
