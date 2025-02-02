@@ -124,7 +124,7 @@
                         我认为有必要<b>全面了解计算机专业之后，有了自己的专业观，再结合自身兴趣考虑具体从事的方向以及未来的去向</b>。
                         在对计算机各个大方向都进行一些学习之后，结合我自己的科研兴趣，最终选择了人工智能方向，并立志于以后从事科研工作。
                         于是，我在<b>大二暑假（2023年6月）</b>联系了
-                        <a href="https://faculty.cqupt.edu.cn/junliu/zh_CN/index.htm" target="_blank"><strong>刘俊教授</strong></a>，并加入实验室。
+                        <a href="https://faculty.cqupt.edu.cn/junliu/zh_CN/index.htm" target="_blank"><strong>刘俊教授</strong></a>，并加入其实验室。
                     </p>
                     <h3>1、科研路起始</h3>
                     <p>
@@ -136,8 +136,9 @@
                             <li>《基于计算机视觉的干眼检测算法综述》（中文核心，已录用）：
                                 这篇是配合研究生写的一篇综述，我主要负责对国内外泪膜破裂检测的文献调研。
                             </li>
-                            <li>《MTV-YOLO: A Multi-task Learning Model YOLOv8-based for Tear Film Break-Up Time Determination》<br>
-                                （<b>第一作者</b>，暂未发表）：这篇是我针对现有的泪膜检测方法的不足所提出的的基于yolov8的一种多任务检测模型，
+                            <li>《Real-time Tear Film Break-up Measurement Based on Multi-task Collaborative System for
+                                Dry Eye Instrument》<br>
+                                （<b>第一作者</b>，暂未发表）：这篇是我针对现有的泪膜检测方法的不足所提出的一种轻量级的视觉多任务检测模型，
                                 可以同时对泪膜图像同时进行三个检测任务：泪膜四分类，Placido检测，泪膜破裂区域分割。
                             </li>
                         </ul>
@@ -155,7 +156,7 @@
                     <h3>2、科研发展期</h3>
                     <p>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        大三第一个学期（2023年9月），学习《数字媒体技术》这门课程时，我选择了“低照度图像增强”作为期末答辩。
+                        大三第一个学期（2023年9月），通过文献阅读与分析，<b>我自主独立开创实验室一个新方向</b>。
                         我从传统图像算法和深度学习两个方面完成对低照度增强领域的综述回顾。
                         【<a href="https://glory-1309054437.cos.ap-chongqing.myqcloud.com/ps_ppt/LLIE_Classroom_presentation.pptx">详情可见PPT</a>】
                     </p>
@@ -170,7 +171,7 @@
                             <li>                            
                                 <b>我组织了11名同学</b>（在2024年7月8日-2024年7月18日连续十天十夜地进行了白天和黑夜图像的收集）
                                 制作一个能够同时满足高阶视觉任务和低照度增强的大规模高质量数据集（超过2万张图像，共计约86GB），命名为“<b>HL-Dark</b>”，
-                                即含有多种高阶任务的标签的LLIE数据集，同时包括白天的正常光照图像和夜晚的低光照图像。<b>这填补了这个领域的空白</b>。<br>
+                                即含有多种高阶任务的标签的LLIE数据集，同时包括白天的正常光照图像和夜晚的低光照图像。<br>
                             </li>
                             <li>
                                 另外，在数据集制作过程中，统计分析了白天光照图和夜晚图的特征分布差异（也称特征漂移现象），
@@ -179,20 +180,24 @@
                             <li>
                                 同时，为了进一步提高和挖掘现有的LLIE模型的性能，我提出利用带有特定高阶任务辅助监督分支，这能帮助LLIE模型学习增强图像质量的同时，
                                 也能隐式的学习到相关高阶任务的语义。
-                                【<a href="https://glory-1309054437.cos.ap-chongqing.myqcloud.com/ps_ppt/LLIE_Classroom_presentation.pptx">关于数据集和辅助分支的详情可见PPT</a>】
                             </li>
                         </ol>
                     </p>
                     <p>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        结合以上三点，我撰写了一篇论文《Enhancing Desired Features in Low-Light Images Using High-level and Specific Target-guided Modules》（准备投稿 2025 CVPR）
+                        结合以上经历，我撰写了两篇论文： 
+                        <ul>
+                            <li>HL-Dark: High-level Semantics in the Dark（准备投稿 2025 ICCV）</li>
+                            <li>ATG: Joint Low-light Image Enhancement and High-level Vision Tasks （撰写中，预计2025年5月份完成）</li>
+                        </ul>
                     </p>
-                    <p>
+                    <!-- <p>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        此外，在对LLIE联合高阶视觉的研究进行文献调研后，我梳理了该领域的论文并开始撰写<b>一篇论文综述</b>《A Comparative Survey: Evaluating Low-Light Image Enhancement Algorithms on high-level computer vision tasks》，
+                        此外，在对LLIE联合高阶视觉的研究进行文献调研后，我梳理了该领域的论文并开始撰写<b>一篇综述：</b> <br>
+                        A Comparative Survey: Evaluating Low-Light Image Enhancement Algorithms on high-level computer vision tasks，
                         该综述集中于低照度领域和高阶视觉的联合研究。现已完成传统低照度图像增强（如HE系列、math变换系列等）部分的<a href="https://github.com/glory-wan/LLIE-Lib"><b>代码</b></a>及对应文章内容。
                         （全部预计2025年3月份完成）
-                    </p>
+                    </p> -->
                     <h3>3、一年科研路的总结（2023/6--2024/8）</h3>
                     <p>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -200,7 +205,7 @@
                     </p>
                     <p>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        在过去这一年中，我从最初跟随导师的步伐，逐步掌握科研的基本方法，到现在可以带领一个团队<b>进行独立课题研究</b>。
+                        在过去这一年中，我从最初跟随刘老师的步伐，逐步掌握科研的基本方法，到现在可以带领一个团队<b>进行独立课题研究</b>。
                         我很感慨自己的蜕变：
                         <ol>
                             <li>从一个科研小白到现在能对不同论文有自己的见解。</li>
@@ -208,8 +213,8 @@
                         </ol>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         这段成长经历让我深感自豪。
-                        我确信，科研正是我想要投入的职业生涯，因为它充满了不断更新的知识、动态变化的挑战。<b>充满变化的生活才是我想要的</b>。
-                        我希望站在世界的最前沿，用自己的智慧与努力，做出真正有意义的研究。
+                        我确信，科研之路正是我想要投入的职业生涯，因为它充满了不断更新的知识、动态变化的挑战。<b>充满变化的生活才是我想要的</b>。
+                        我希望站在世界的最前沿，用自己的智慧与努力，做出真正有意义，能够解决现实世界中实际问题的研究。
                     </p>
                     <hr>
                 </td>
@@ -250,6 +255,7 @@
                             
                             <li>多模态研究：本科阶段研究的主要为计算机视觉方向，但是个人认为多模态大统一将会是AI的未来。因此，总体个人研究方向，我倾向于多模态研究。</li>
                             <li>正如我摘要和引言中提到，个人认为，要实现真正的智能体，需要依靠量子计算。因此，量子计算，也将是我关注的研究方向。</li>
+                            <li>同时，类脑智能，模仿人类大脑的神经结构，因此，脑科学和认知神经科学也是我关注的方向。</li>
                             <li>跟进课题组研究内容和听从导师安排，展开研究工作。</li>
                         </ol>
                     </p>
@@ -259,6 +265,8 @@
                             <li>研一入学前，考取雅思7分，为研究生阶段参加学术会议，出国交流等做准备 </li>
                             <li>研二结束时，考取雅思7.5分，为出国继续深造读博做准备</li>
                         </ol>
+
+                        研究方面：
 
                     <table id="planning">
                         <tr>
@@ -275,7 +283,7 @@
                             <td>1、整理前面四个学期论文，开始准备毕业论文。<br>
                                 2、如果前面研究内容连贯性强，可以整理一篇综述。    
                             </td>
-                            <td rowspan="2">1、完成毕业设计<br><br>
+                            <td rowspan="2">1、完成毕业论文<br><br>
                                 2、联系海外读博导师。
                             </td>
                         </tr>
